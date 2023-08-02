@@ -432,17 +432,16 @@ header{
     margin-bottom: 60px;
 }
 
-
-
+/* Footer-----------section
+ */
 footer{
     background-color: #EBF2FA;
     padding-block: 80px;
 }
+
 .footer-section{
     justify-content: space-between;
-}
-.foot-logo{
-    align-self:flex-start;
+    align-items: flex-start;
 }
 
 .footer-section a{
