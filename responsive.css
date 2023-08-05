@@ -106,11 +106,11 @@
 
     .subfooter-section{
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
     }
     .footer-links{
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
     }
     .cta-section{
         margin-top: 20px;
