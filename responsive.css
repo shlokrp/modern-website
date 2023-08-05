@@ -120,6 +120,9 @@
     :root{
         --padding-inline-section: 10px;
     }
+    .details-section{
+        padding-left: 10px;
+    }
     h1{
         font-size: 2rem;
     }
