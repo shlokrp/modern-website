@@ -1,0 +1,139 @@
+@media screen and (max-width: 980px) {
+    .nav-link{
+        display: none;
+    }
+    .main-nav{
+        margin-top: 15px;
+    }
+    header{
+        padding-top: 30px;
+    }
+    
+    .header-section{
+        gap: 50px;
+    }
+    .toggle-nav{
+        display:contents;
+    }
+    .details-section{
+        gap: 40px;
+    }
+    .examples-area{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .examples-card{
+        width: 47%;
+        height: 200px;
+    }
+    .examples-header{
+        text-align: center;
+    }
+    .cta-section{
+        margin-block: 30px;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .features-area{
+        gap: 30px;
+    }
+    footer{
+        padding-block: 40px;
+    }
+    .participants-section{
+        display: none;
+    }
+    /* .participants-left{
+        /* margin-top: 20px;
+        width: 100%; 
+    } */
+    .participants-right{
+        /* width: 100%;
+        height: 250px; */
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+    :root{
+        --padding-inline-section: 15px;
+    }
+    .primary-button{
+        width: 100%;
+        text-align: center;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    header{
+        padding-top: 40px;
+    }
+    .header-left{
+        max-width: 100%;
+        text-align: center;
+    }
+    .features-area{
+        gap: 15px
+    }
+    .features{
+        margin-top: 50px;
+    }
+    .features-card{
+        min-width: 45%;
+    }
+
+    .details-section , #second-details{
+        flex-direction: column;
+    }
+    .footer-section{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    footer{
+        padding-block: 30px;
+    }
+    .link-column{
+        align-items: stretch;
+    }
+
+    .subfooter-section{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer-links{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .cta-section{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    :root{
+        --padding-inline-section: 10px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .features-card{
+        min-width: 100%;
+    }
+    .examples-card{
+        min-width: 100%;
+    }
+    
+}
