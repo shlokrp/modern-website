@@ -366,7 +366,16 @@
         </div>
 
     </div>
-
     <script src="https://kit.fontawesome.com/bf19cad5c3.js" crossorigin="anonymous"></script>
+
+    <script>
+            const toggleButton = document.getElementById('nav-toggle');
+            const navLinks = document.getElementById('nav-link');
+    
+            toggleButton.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            })
+    
+        </script>
 </body>
 </html>
