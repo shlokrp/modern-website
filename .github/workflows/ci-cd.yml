@@ -3,32 +3,18 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Change this to your default branch if different
-
+      - main 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-
-    - name: Set up Node.js (if you are using any build tools)
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'  # Specify the Node.js version you need
-
-    - name: Install dependencies (if applicable)
+    - name: Run tests 
       run: |
-        npm install  # Run this if you have a package.json file
-
-    - name: Run tests (if applicable)
-      run: |
-        npm test  # Run this if you have tests defined
-
+        npm test  
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./path/to/your/build  # Change this to your output directory
-        publish_branch: gh-pages  # Optional, defaults to gh-pages
+        github_token: ${{  }}
+        publish_dir: ./path/to/your/build  
